@@ -10,7 +10,7 @@ At present, only limited client functionality is offered, but future functionali
 libraryDependencies += "com.precog" %% "fs2-ssh" % <version>
 ```
 
-fs2-ssh is currently published for Scala 2.12. It depends on Cats Effect 1.4.0, Cats MTL 0.5.0, fs2 1.0.5, SSHD 2.3.0, and Netty 4.1.39.
+fs2-ssh is currently published for Scala 2.12.
 
 What follows is a simple example of connecting to a remote server, running a command, printing the result and the status code, and then cleaning everything up:
 
